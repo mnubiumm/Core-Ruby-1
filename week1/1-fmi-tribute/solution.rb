@@ -6,8 +6,11 @@ class Array
   end
   # def index_by
   # end
+  def occurences_count
+    hash = Hash.new(0)
+    self.each { |key, value| hash[key] += 1 }
+    hash
+  end
   # def subarray_count
-  # end
-  # def occurences_count
   # end
 end
