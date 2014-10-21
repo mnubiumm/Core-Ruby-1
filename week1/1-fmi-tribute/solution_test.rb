@@ -13,7 +13,7 @@ class ArrayTest < Minitest::Test
   # end
 
   def test_occurences_count
-    assert_equal({foo: 2, bar: 1}, [:foo, :bar, :foo].occurences_count)
+    assert_equal({ foo: 2, bar: 1 }, [:foo, :bar, :foo].occurences_count)
   end
 
   # def test_subarray_count
